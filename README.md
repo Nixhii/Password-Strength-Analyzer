@@ -1,2 +1,26 @@
 # Password-Strength-Analyzer
-A Python CLI tool that evaluates password security using a weighted scoring engine (0–8), checks against common breach dictionaries, detects reuse via SHA-256 hashing stored in SQLite, and suggests strong alternatives. Built with zero external dependencies using re, hashlib, sqlite3, and random.
+
+## Overview
+A Python-based cybersecurity tool that evaluates password strength using multiple security checks.
+
+## Features
+- Password Length Analysis
+- Password Complexity Analysis
+- Common Password Detection
+- Strength Scoring (0–8)
+- Strong Password Suggestions
+- SHA-256 Password Hashing
+- SQLite Password History Storage
+- Password Reuse Detection
+
+## Technologies Used
+- Python 3
+- hashlib
+- sqlite3
+- re
+- random
+
+## How to Run
+
+```bash
+python password_analyzer.py
